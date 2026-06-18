@@ -76,11 +76,22 @@ async def process_file(filepath):
 
 async def process_files(files):
     #simulating the processing of multiple files concurrently using tasks or asyncio.gather
-    
+    tasks = []
+    for filepath in files:
+        task = asyncio.create_task(process_file(filepath))
+        tasks.append(task)
+    results = await asyncio.gather(*tasks)
+    return results
+
 
 def generate_report(results):
     pass
 
 
 async def main():
-    pass
+    files = scan_files()
+    results = await process_files(files)
+    print(results)
+
+if __name__ == '__main__':
+    asyncio.run(main())

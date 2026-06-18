@@ -1,0 +1,2 @@
+Remember to review API documentation.
+Schedule deployment for Friday.
