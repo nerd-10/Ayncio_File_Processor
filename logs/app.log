@@ -1,84 +1,44 @@
-2026-06-17 23:45:42,160 - INFO - Found file: bad_file1.txt
-2026-06-17 23:45:42,161 - INFO - Found file: bad_file2.txt
-2026-06-17 23:45:42,162 - INFO - Found file: bad_file3.txt
-2026-06-17 23:45:42,163 - INFO - Found file: good_file1.txt
-2026-06-17 23:45:42,164 - INFO - Found file: good_file2.txt
-2026-06-17 23:45:42,164 - INFO - Found file: good_file3.txt
-2026-06-17 23:45:42,165 - INFO - Found file: good_file4.txt
-2026-06-17 23:45:42,166 - INFO - Found file: good_file5.txt
-2026-06-17 23:45:42,167 - INFO - Processing file is started: bad_file1.txt
-2026-06-17 23:45:42,167 - WARNING - Validated file: bad_file1.txt is bad.
-2026-06-17 23:45:42,167 - WARNING - Processing file: bad_file1.txt failed due to validation error.
-2026-06-17 23:45:42,168 - INFO - Processing file is started: bad_file2.txt
-2026-06-17 23:45:42,169 - WARNING - Validated file: bad_file2.txt is bad.
-2026-06-17 23:45:42,169 - WARNING - Processing file: bad_file2.txt failed due to validation error.
-2026-06-17 23:45:42,169 - INFO - Processing file is started: bad_file3.txt
-2026-06-17 23:45:42,169 - WARNING - Validated file: bad_file3.txt is bad.
-2026-06-17 23:45:42,170 - WARNING - Processing file: bad_file3.txt failed due to validation error.
-2026-06-17 23:45:42,170 - INFO - Processing file is started: good_file1.txt
-2026-06-17 23:45:42,170 - INFO - Validated file: good_file1.txt is good.
-2026-06-17 23:45:42,171 - INFO - Processing file: good_file1.txt content ead successfully.
-2026-06-17 23:45:42,171 - INFO - Processing file is started: good_file2.txt
-2026-06-17 23:45:42,171 - INFO - Validated file: good_file2.txt is good.
-2026-06-17 23:45:42,172 - INFO - Processing file: good_file2.txt content ead successfully.
-2026-06-17 23:45:42,172 - INFO - Processing file is started: good_file3.txt
-2026-06-17 23:45:42,172 - INFO - Validated file: good_file3.txt is good.
-2026-06-17 23:45:42,173 - INFO - Processing file: good_file3.txt content ead successfully.
-2026-06-17 23:45:42,173 - INFO - Processing file is started: good_file4.txt
-2026-06-17 23:45:42,173 - INFO - Validated file: good_file4.txt is good.
-2026-06-17 23:45:42,174 - INFO - Processing file: good_file4.txt content ead successfully.
-2026-06-17 23:45:42,174 - INFO - Processing file is started: good_file5.txt
-2026-06-17 23:45:42,174 - INFO - Validated file: good_file5.txt is good.
-2026-06-17 23:45:42,175 - INFO - Processing file: good_file5.txt content ead successfully.
-2026-06-17 23:45:44,186 - INFO - Saved processed file: output\processed_good_file1.txt successfully.
-2026-06-17 23:45:44,187 - INFO - Processing file: good_file1.txt is completed successfully.
-2026-06-17 23:45:44,190 - INFO - Saved processed file: output\processed_good_file2.txt successfully.
-2026-06-17 23:45:44,191 - INFO - Processing file: good_file2.txt is completed successfully.
-2026-06-17 23:45:44,196 - INFO - Saved processed file: output\processed_good_file3.txt successfully.
-2026-06-17 23:45:44,197 - INFO - Processing file: good_file3.txt is completed successfully.
-2026-06-17 23:45:44,199 - INFO - Saved processed file: output\processed_good_file4.txt successfully.
-2026-06-17 23:45:44,199 - INFO - Processing file: good_file4.txt is completed successfully.
-2026-06-17 23:45:44,201 - INFO - Saved processed file: output\processed_good_file5.txt successfully.
-2026-06-17 23:45:44,201 - INFO - Processing file: good_file5.txt is completed successfully.
-2026-06-18 23:16:43,331 - INFO - Found file: bad_data.txt
-2026-06-18 23:16:43,332 - INFO - Found file: bad_invoice.txt
-2026-06-18 23:16:43,333 - INFO - Found file: bad_notes.txt
-2026-06-18 23:16:43,333 - INFO - Found file: good_archives.txt
-2026-06-18 23:16:43,334 - INFO - Found file: good_invoice.txt
-2026-06-18 23:16:43,334 - INFO - Found file: good_notes.txt
-2026-06-18 23:16:43,334 - INFO - Found file: good_record.txt
-2026-06-18 23:16:43,335 - INFO - Found file: good_report.txt
-2026-06-18 23:16:43,336 - INFO - Processing file is started: bad_data.txt
-2026-06-18 23:16:43,336 - WARNING - Validated file: bad_data.txt is bad.
-2026-06-18 23:16:43,336 - WARNING - Processing file: bad_data.txt failed due to validation error.
-2026-06-18 23:16:43,337 - INFO - Processing file is started: bad_invoice.txt
-2026-06-18 23:16:43,337 - WARNING - Validated file: bad_invoice.txt is bad.
-2026-06-18 23:16:43,337 - WARNING - Processing file: bad_invoice.txt failed due to validation error.
-2026-06-18 23:16:43,337 - INFO - Processing file is started: bad_notes.txt
-2026-06-18 23:16:43,337 - WARNING - Validated file: bad_notes.txt is bad.
-2026-06-18 23:16:43,338 - WARNING - Processing file: bad_notes.txt failed due to validation error.
-2026-06-18 23:16:43,338 - INFO - Processing file is started: good_archives.txt
-2026-06-18 23:16:43,338 - INFO - Validated file: good_archives.txt is good.
-2026-06-18 23:16:43,339 - INFO - Processing file: good_archives.txt content ead successfully.
-2026-06-18 23:16:43,339 - INFO - Processing file is started: good_invoice.txt
-2026-06-18 23:16:43,340 - INFO - Validated file: good_invoice.txt is good.
-2026-06-18 23:16:43,341 - INFO - Processing file: good_invoice.txt content ead successfully.
-2026-06-18 23:16:43,341 - INFO - Processing file is started: good_notes.txt
-2026-06-18 23:16:43,341 - INFO - Validated file: good_notes.txt is good.
-2026-06-18 23:16:43,342 - INFO - Processing file: good_notes.txt content ead successfully.
-2026-06-18 23:16:43,343 - INFO - Processing file is started: good_record.txt
-2026-06-18 23:16:43,343 - INFO - Validated file: good_record.txt is good.
-2026-06-18 23:16:43,367 - INFO - Processing file: good_record.txt content ead successfully.
-2026-06-18 23:16:43,368 - INFO - Processing file is started: good_report.txt
-2026-06-18 23:16:43,368 - INFO - Validated file: good_report.txt is good.
-2026-06-18 23:16:43,368 - INFO - Processing file: good_report.txt content ead successfully.
-2026-06-18 23:16:45,353 - INFO - Saved processed file: output\processed_good_archives.txt successfully.
-2026-06-18 23:16:45,353 - INFO - Processing file: good_archives.txt is completed successfully.
-2026-06-18 23:16:45,355 - INFO - Saved processed file: output\processed_good_invoice.txt successfully.
-2026-06-18 23:16:45,355 - INFO - Processing file: good_invoice.txt is completed successfully.
-2026-06-18 23:16:45,357 - INFO - Saved processed file: output\processed_good_notes.txt successfully.
-2026-06-18 23:16:45,357 - INFO - Processing file: good_notes.txt is completed successfully.
-2026-06-18 23:16:45,385 - INFO - Saved processed file: output\processed_good_record.txt successfully.
-2026-06-18 23:16:45,385 - INFO - Processing file: good_record.txt is completed successfully.
-2026-06-18 23:16:45,387 - INFO - Saved processed file: output\processed_good_report.txt successfully.
-2026-06-18 23:16:45,387 - INFO - Processing file: good_report.txt is completed successfully.
+2026-06-19 20:49:43,798 - INFO - Found file: bad_data.txt
+2026-06-19 20:49:43,798 - INFO - Found file: bad_invoice.txt
+2026-06-19 20:49:43,799 - INFO - Found file: bad_notes.txt
+2026-06-19 20:49:43,799 - INFO - Found file: good_archives.txt
+2026-06-19 20:49:43,799 - INFO - Found file: good_invoice.txt
+2026-06-19 20:49:43,799 - INFO - Found file: good_notes.txt
+2026-06-19 20:49:43,800 - INFO - Found file: good_record.txt
+2026-06-19 20:49:43,800 - INFO - Found file: good_report.txt
+2026-06-19 20:49:43,800 - INFO - Processing file is started: bad_data.txt
+2026-06-19 20:49:43,800 - WARNING - Validated file: bad_data.txt is bad.
+2026-06-19 20:49:43,800 - WARNING - Processing file: bad_data.txt failed due to validation error.
+2026-06-19 20:49:43,801 - INFO - Processing file is started: bad_invoice.txt
+2026-06-19 20:49:43,801 - WARNING - Validated file: bad_invoice.txt is bad.
+2026-06-19 20:49:43,801 - WARNING - Processing file: bad_invoice.txt failed due to validation error.
+2026-06-19 20:49:43,801 - INFO - Processing file is started: bad_notes.txt
+2026-06-19 20:49:43,801 - WARNING - Validated file: bad_notes.txt is bad.
+2026-06-19 20:49:43,801 - WARNING - Processing file: bad_notes.txt failed due to validation error.
+2026-06-19 20:49:43,801 - INFO - Processing file is started: good_archives.txt
+2026-06-19 20:49:43,801 - INFO - Validated file: good_archives.txt is good.
+2026-06-19 20:49:43,802 - INFO - Processing file: good_archives.txt content read successfully.
+2026-06-19 20:49:43,802 - INFO - Processing file is started: good_invoice.txt
+2026-06-19 20:49:43,802 - INFO - Validated file: good_invoice.txt is good.
+2026-06-19 20:49:43,803 - INFO - Processing file: good_invoice.txt content read successfully.
+2026-06-19 20:49:43,803 - INFO - Processing file is started: good_notes.txt
+2026-06-19 20:49:43,803 - INFO - Validated file: good_notes.txt is good.
+2026-06-19 20:49:43,804 - INFO - Processing file: good_notes.txt content read successfully.
+2026-06-19 20:49:43,804 - INFO - Processing file is started: good_record.txt
+2026-06-19 20:49:43,804 - INFO - Validated file: good_record.txt is good.
+2026-06-19 20:49:43,805 - INFO - Processing file: good_record.txt content read successfully.
+2026-06-19 20:49:43,805 - INFO - Processing file is started: good_report.txt
+2026-06-19 20:49:43,805 - INFO - Validated file: good_report.txt is good.
+2026-06-19 20:49:43,806 - INFO - Processing file: good_report.txt content read successfully.
+2026-06-19 20:49:45,810 - INFO - Saved processed file: output\processed_good_archives.txt successfully.
+2026-06-19 20:49:45,812 - INFO - Processing file: good_archives.txt is completed successfully.
+2026-06-19 20:49:45,814 - INFO - Saved processed file: output\processed_good_invoice.txt successfully.
+2026-06-19 20:49:45,816 - INFO - Processing file: good_invoice.txt is completed successfully.
+2026-06-19 20:49:45,818 - INFO - Saved processed file: output\processed_good_notes.txt successfully.
+2026-06-19 20:49:45,821 - INFO - Processing file: good_notes.txt is completed successfully.
+2026-06-19 20:49:45,824 - INFO - Saved processed file: output\processed_good_record.txt successfully.
+2026-06-19 20:49:45,825 - INFO - Processing file: good_record.txt is completed successfully.
+2026-06-19 20:49:45,829 - INFO - Saved processed file: output\processed_good_report.txt successfully.
+2026-06-19 20:49:45,830 - INFO - Processing file: good_report.txt is completed successfully.
+2026-06-19 20:49:45,833 - INFO - Report generated at: reports\report.txt
+2026-06-19 20:49:45,834 - INFO - Completed in 2.04 seconds

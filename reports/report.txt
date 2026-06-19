@@ -1,0 +1,5 @@
+Files Processing Report
+Total Files: 8
+Successful: 5
+Failed: 3
+Errors: 0
